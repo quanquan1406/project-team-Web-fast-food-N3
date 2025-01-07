@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #F7F7F7; /* Màu nền nhạt */
+}
+
+.login-container {
+    background: #FFFFFF; /* Màu trắng */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    border: 2px solid #940b0b; /* Viền đỏ đậm */
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #940b0b; /* Màu đỏ */
+}
+
+.role-selection button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #FFC107; /* Màu vàng */
+    color: #FFFFFF; /* Màu chữ trắng */
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.role-selection button:hover {
+    background-color: #FFA000; /* Màu vàng đậm hơn khi hover */
+}
+
+.login-form {
+    display: none;
+    flex-direction: column;
+}
+
+.login-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: calc(100% - 20px);
+    border: 1px solid #940b0b; /* Viền đỏ */
+    border-radius: 5px;
+}
+
+.login-form button {
+    padding: 10px;
+    border: none;
+    background-color: #940b0b; /* Màu đỏ */
+    color: #FFFFFF; /* Màu chữ trắng */
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-form button:hover {
+    background-color: #940b0b; /* Màu đỏ đậm hơn khi hover */
+}
+
+body {
+    background-color: #940b0b;
+}

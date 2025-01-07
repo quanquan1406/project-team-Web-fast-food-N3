@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) {
+  .slider .list {
+    gap: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+      "banner"
+      "type-food1"
+      "type-food2"
+      "type-food3"
+      "type-food4"
+      "type-food5";
+  }
+}
